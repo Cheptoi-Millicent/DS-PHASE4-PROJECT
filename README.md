@@ -1,14 +1,24 @@
 # DS-PHASE4-PROJECT
 
+# Overview
+
+This project aims to develop a Collaborative Filtering-based Movie Recommendation System that helps users discover movies tailored to their preferences. The system achieves this by analyzing user ratings and recommending the top 5 movies that align with their viewing history and preferences. Additionally, the system predicts the rating a user would likely give to a movie they haven't rated yet, ensuring more accurate recommendations.
+
+To measure the effectiveness of the system, key evaluation metrics such as Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE) are used. 
+
+
 # Problem Statement
+
 The objective of this project is to build a movie recommendation system that help the user to find the right item by minimizing the options since all entertainment websites or online stores have alot of items. It becomes challenging for the customer to select the right one. 
 
-# Business Objectives
-The business objectives:
+# Objectives
+
+The objectives:
 
 * To create a Collaborative Filtering based Movie Recommendation System.It provides top 5 recommendations to a user, based on their ratings of other movie.
 * Predict the rating that a user would give to a movie that he has not yet rated.
-* Minimize the difference between the estimated and actual rating (RMSE and MAE).
+* Minimize the difference between the predicted and actual rating (RMSE and MAE).
+
 
 # Data
 The data i worked with was accessed throught the link:(https://grouplens.org/datasets/movielens/latest/), the focus for this project being the  movies and the ratings csv's
